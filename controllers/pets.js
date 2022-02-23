@@ -5,6 +5,5 @@ module.exports = app => {
         const pet = req.body
 
         Pet.adiciona(pet, res)
-
     })
 }
